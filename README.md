@@ -28,6 +28,9 @@ Ga naar **[Releases](https://github.com/fvanson/dares-berichtenformulier-downloa
 
 Installeren is niet nodig en er zijn geen beheerdersrechten nodig. Verwijderen = de map weggooien.
 
+Melding over `MSVCP140.dll` of `VCRUNTIME140.dll` bij het starten? Dan heb je een zip van vóór 4 oktober 2026:
+download de zip opnieuw.
+
 ## Installeren op Android
 
 1. Open de link naar het `.apk`-bestand op je telefoon en download het.
