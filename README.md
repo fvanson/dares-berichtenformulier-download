@@ -4,7 +4,7 @@ App voor het invullen, bewaren en afdrukken van het **DARES Berichtenformulier**
 formulier (V2.5) en het digitale formulier voor Winlink (V1.3.1). De app werkt **volledig offline**: berichten
 blijven op je eigen apparaat.
 
-> **Alpha-versie (V0.02 Alpha).** Dit is een testversie om de app te bekijken en uit te proberen. Er kunnen
+> **Alpha-versie (V0.04 Alpha).** Dit is een testversie om de app te bekijken en uit te proberen. Er kunnen
 > nog fouten in zitten en onderdelen kunnen nog veranderen. Gebruik deze versie (nog) niet als enige middel bij een
 > echte inzet.
 >
@@ -16,8 +16,8 @@ Ga naar **[Releases](https://github.com/fvanson/dares-berichtenformulier-downloa
 
 | Apparaat | Bestand |
 |---|---|
-| Windows 10/11 (laptop/pc) | `Berichtenformulier-V0.02-Alpha-Windows.zip` |
-| Android 7.0 of nieuwer (telefoon/tablet) | `Berichtenformulier-V0.02-Alpha-Android.apk` |
+| Windows 10/11 (laptop/pc) | `Berichtenformulier-V0.04-Alpha-Windows.zip` |
+| Android 7.0 of nieuwer (telefoon/tablet) | `Berichtenformulier-V0.04-Alpha-Android.apk` |
 
 ## Installeren op Windows
 
@@ -57,12 +57,17 @@ De app vraagt eerst om je **roepnaam** (callsign). Die staat bovenaan het formul
 standaard ingevuld bij *Origineel station* en *Door (By)*. Je kunt hem later wijzigen via **Instellingen**
 (tandwiel rechtsboven).
 
-## Wat kan V0.02 Alpha
+## Wat kan V0.04 Alpha
 
 - Berichtenformulier invullen zoals op papier: grijze velden voor DARES, witte velden voor de opdrachtgever.
 - Bericht van maximaal 25 woorden (maximaal 35 tekens per woord) in een 5×5-raster, met automatische woordtelling.
 - **Check**: wordt automatisch geteld; bij een ontvangen bericht vul je de opgegeven Check in en ziet je direct of
   die klopt met het aantal woorden. Een verschil wordt genoteerd als bijvoorbeeld *13/12*.
+- **Uitgaand** of **Inkomend** bericht, met een **status** per stap (Ingediend → Gecontroleerd → Genummerd →
+  Verzonden → Bevestigd; Ontvangen → Afgeleverd of Doorgegeven), inclusief tijd en roepnaam per stap.
+- Berichtenlijst met selecties: Te verzenden, Wacht op ACK, Inkomend open, Afgehandeld.
+- **Spellingcontrole** in het Bericht (Nederlands; op Windows via rechtsklik, op Android via het toetsenbord).
+- **Donkere modus** volgens de instelling van Windows of Android.
 - Nummering per post, waarschuwing bij een dubbel nummer.
 - *Ontvangen van* en *Doorgegeven aan*.
 - Berichten bewaren, terugzoeken en bewerken.
@@ -83,12 +88,15 @@ Alles blijft op je eigen apparaat; de app stuurt niets via internet. Maak tijden
 - Ziet de afdruk / PDF er goed uit?
 - Werken CSV-export en -import (ook in Excel)?
 - Past het formulier op je scherm (laptop, telefoon, tablet)?
+- Werken de statusstappen zoals op jullie post (ook *Doorgegeven* en *Bevestigd* met de ACK-tijd)?
+- Is de spellingcontrole in het Bericht een hulp, of vooral storend (bijvoorbeeld bij plaatsnamen)?
+- Is alles goed leesbaar in de donkere modus?
 
 ## Feedback
 
 Graag! Mail naar **frank@vanson.me** en vermeld:
 
-- de versie (staat bovenaan het formulier, bijvoorbeeld *V0.02 Alpha*);
+- de versie (staat bovenaan het formulier, bijvoorbeeld *V0.04 Alpha*);
 - je apparaat en Windows- of Android-versie;
 - wat je deed, wat je verwachtte en wat er gebeurde;
 - een schermafbeelding als dat helpt.
