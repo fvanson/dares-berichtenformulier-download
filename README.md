@@ -4,7 +4,7 @@ App voor het invullen, bewaren en afdrukken van het **DARES Berichtenformulier**
 formulier (V2.5) en het digitale formulier voor Winlink (V1.3.1). De app werkt **volledig offline**: berichten
 blijven op je eigen apparaat.
 
-> **Alpha-versie (V0.04 Alpha).** Dit is een testversie om de app te bekijken en uit te proberen. Er kunnen
+> **Alpha-versie (V0.05 Alpha).** Dit is een testversie om de app te bekijken en uit te proberen. Er kunnen
 > nog fouten in zitten en onderdelen kunnen nog veranderen. Gebruik deze versie (nog) niet als enige middel bij een
 > echte inzet.
 >
@@ -16,8 +16,8 @@ Ga naar **[Releases](https://github.com/fvanson/dares-berichtenformulier-downloa
 
 | Apparaat | Bestand |
 |---|---|
-| Windows 10/11 (laptop/pc) | `Berichtenformulier-V0.04-Alpha-Windows.zip` |
-| Android 7.0 of nieuwer (telefoon/tablet) | `Berichtenformulier-V0.04-Alpha-Android.apk` |
+| Windows 10/11 (laptop/pc) | `Berichtenformulier-V0.05-Alpha-Windows.zip` |
+| Android 7.0 of nieuwer (telefoon/tablet) | `Berichtenformulier-V0.05-Alpha-Android.apk` |
 
 ## Installeren op Windows
 
@@ -57,7 +57,7 @@ De app vraagt eerst om je **roepnaam** (callsign). Die staat bovenaan het formul
 standaard ingevuld bij *Origineel station* en *Door (By)*. Je kunt hem later wijzigen via **Instellingen**
 (tandwiel rechtsboven).
 
-## Wat kan V0.04 Alpha
+## Wat kan V0.05 Alpha
 
 - Berichtenformulier invullen zoals op papier: grijze velden voor DARES, witte velden voor de opdrachtgever.
 - Bericht van maximaal 25 woorden (maximaal 35 tekens per woord) in een 5×5-raster, met automatische woordtelling.
@@ -71,7 +71,10 @@ standaard ingevuld bij *Origineel station* en *Door (By)*. Je kunt hem later wij
 - Nummering per post, waarschuwing bij een dubbel nummer.
 - *Ontvangen van* en *Doorgegeven aan*.
 - Berichten bewaren, terugzoeken en bewerken.
-- **Afdrukken** en **opslaan als PDF** (A4 liggend, in de opmaak van het papieren formulier).
+- **Afdrukken** en **opslaan als PDF** (A4 liggend, in de opmaak van het papieren formulier), met de status en het
+  statusverloop van het bericht.
+- **Bericht doorgeven aan een ander apparaat** met de app, als bestand (Quick Share, Bluetooth, USB-stick) of als
+  QR-code (scannen met een telefoon of tablet). Het ontvangen bericht is een kopie: alleen lezen.
 - **CSV-export** (per periode) en **CSV-import**, bijvoorbeeld als back-up of om in Excel te bekijken.
 
 Nog **niet** in deze versie: versturen via Winlink, versies voor iPhone/iPad, Mac en Linux.
@@ -91,12 +94,14 @@ Alles blijft op je eigen apparaat; de app stuurt niets via internet. Maak tijden
 - Werken de statusstappen zoals op jullie post (ook *Doorgegeven* en *Bevestigd* met de ACK-tijd)?
 - Is de spellingcontrole in het Bericht een hulp, of vooral storend (bijvoorbeeld bij plaatsnamen)?
 - Is alles goed leesbaar in de donkere modus?
+- Lukt het doorgeven van een bericht naar een ander apparaat (bestand en QR-code)? Welke manier werkt het best op
+  jullie post?
 
 ## Feedback
 
 Graag! Mail naar **frank@vanson.me** en vermeld:
 
-- de versie (staat bovenaan het formulier, bijvoorbeeld *V0.04 Alpha*);
+- de versie (staat bovenaan het formulier, bijvoorbeeld *V0.05 Alpha*);
 - je apparaat en Windows- of Android-versie;
 - wat je deed, wat je verwachtte en wat er gebeurde;
 - een schermafbeelding als dat helpt.
